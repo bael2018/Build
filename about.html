@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -67,11 +68,11 @@
         <section id="about" class="container-xl mt-5 mb-5">
             <div class="row justify-content-center">
                 <div class="col-lg-12 col-md-12 col-sm-12 d-flex mt-5 mb-5 flexing">
-                    <div class="block2_left">
+                    <div class="block2_left" data-aos="fade-right">
                         <a href="#"><img src="img/about1.png" alt=""></a>
                     </div>
 
-                    <div class="block2_right">
+                    <div class="block2_right" data-aos="fade-left">
                         <p class="block2_para1">WE ARE ON EXPERT THIS FIELD BUILDINGS SOLUTIONS SINCE 1974.</p>
                         <p class="block2_para2">Void gathering midst together you're shall. Beast set he likeness spirit winged two all fourth they're gathered seasons very may heaven saying. Fly image th. </p>
                         <a href="#">LEARN MORE</a>
@@ -258,7 +259,7 @@
     </footer>
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -270,6 +271,9 @@
         dynamicBullets: true,
       },
     });
+  </script>
+  <script>
+    AOS.init();
   </script>
 </body>
 </html>
